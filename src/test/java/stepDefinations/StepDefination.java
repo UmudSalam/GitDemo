@@ -48,6 +48,7 @@ public void user_calls_with_http_request(String resource, String method) {
 		APIResources resourceAPI=APIResources.valueOf(resource);
 		System.out.println(resourceAPI.getResource());
 	System.out.println(resourceAPI.getResource());
+	System.out.println(resourceAPI.getResource());
 		
 		
 		resspec =new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();

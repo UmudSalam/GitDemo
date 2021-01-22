@@ -49,9 +49,14 @@ public void user_calls_with_http_request(String resource, String method) {
 		System.out.println(resourceAPI.getResource());
 	System.out.println(resourceAPI.getResource());
 	System.out.println(resourceAPI.getResource());
-		
-		
-		resspec =new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
+		//dbfhdfh
+	//fhshg
+	//ytkyk
+
+
+
+
+	resspec =new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
 		
 		if(method.equalsIgnoreCase("POST"))
 		 response =res.when().post(resourceAPI.getResource());

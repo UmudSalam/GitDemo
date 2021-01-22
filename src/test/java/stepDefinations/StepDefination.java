@@ -52,6 +52,7 @@ public void user_calls_with_http_request(String resource, String method) {
 		//dbfhdfh
 	//fhshg
 	//ytkyk
+	//	System.out.println(resourceAPI.getResource());
 
 
 

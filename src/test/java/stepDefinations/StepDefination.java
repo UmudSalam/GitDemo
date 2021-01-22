@@ -102,6 +102,8 @@ public void deleteplace_Payload() throws IOException {
 	res =given().spec(requestSpecification()).body(data.deletePlacePayload(place_id));
 }
 
+//Architech making a lot of  changes
+	//Architech making a lot of  changes
 
 
 }

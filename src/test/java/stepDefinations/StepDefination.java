@@ -49,10 +49,22 @@ public void user_calls_with_http_request(String resource, String method) {
 		System.out.println(resourceAPI.getResource());
 	System.out.println(resourceAPI.getResource());
 	System.out.println(resourceAPI.getResource());
+<<<<<<< HEAD
 
 
 		
 		resspec =new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
+=======
+		//dbfhdfh
+	//fhshg
+	//ytkyk
+	//	System.out.println(resourceAPI.getResource());
+
+
+
+
+	resspec =new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
+>>>>>>> 9a4e673fa1c419e6a26e17e868d54d4ade17213f
 		
 		if(method.equalsIgnoreCase("POST"))
 		 response =res.when().post(resourceAPI.getResource());
@@ -97,6 +109,8 @@ public void deleteplace_Payload() throws IOException {
 	res =given().spec(requestSpecification()).body(data.deletePlacePayload(place_id));
 }
 
+//Architech making a lot of  changes
+	//Architech making a lot of  changes
 
 
 }

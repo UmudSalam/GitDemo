@@ -1,3 +1,8 @@
 /.idea/
+<<<<<<< HEAD
 /target/
 *.iml
+=======
+*iml/
+/.idea/workspace.xml
+>>>>>>> 9a4e673fa1c419e6a26e17e868d54d4ade17213f

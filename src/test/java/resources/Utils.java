@@ -51,8 +51,10 @@ public class Utils {
 	
 	public String getJsonPath(Response response,String key)
 	{
+		//System.out.println();
 		  String resp=response.asString();
 		JsonPath   js = new JsonPath(resp);
 		return js.get(key).toString();
+		//hsfbfxn
 	}
 }
